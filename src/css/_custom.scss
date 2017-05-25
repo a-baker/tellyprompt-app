@@ -1,5 +1,6 @@
+$red: #f55;
+
 body {
-  padding-top: 0;
   padding: 0;
   background-color: #f7f7f7;
 }
@@ -10,9 +11,25 @@ h1 {
 
 .module {
     background-color: #fff;
-    padding: 20px;
     border-radius: 3px;
     box-shadow: 0px 3px 10px -4px #000;
+
+    &-header {
+      background: $red;
+      padding: 20px 20px 0;
+
+      h1 {
+        margin: 0;
+        font-size: 60px;
+        line-height: 55px;
+        height: 45px;
+        color: #fff;
+      }
+    }
+
+    &-main {
+      padding: 20px;
+    }
 }
 
 .body, .welcome {
@@ -31,7 +48,6 @@ h1 {
 }
 
 .welcome {
-  text-align: center;
   margin: 0 auto 20px auto;
   .search {
     margin-bottom: 30px;
@@ -70,17 +86,11 @@ h3.statText {
   margin-bottom: 10px;
 }
 
-h1.hello {
+.hello {
   color: #272727;
-  font-weight: 600;
   margin-bottom: 30px;
-  margin-top: 40px;
-  span.question {
-    margin-top: 5px;
-    font-size: 30px;
-    display: block;
-    font-weight: 400;
-  }
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .sectionHead {

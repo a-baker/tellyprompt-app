@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
-import { get } from 'axios';
 
 import Favourites from './components/Favourites';
 import Popular from './components/Popular';

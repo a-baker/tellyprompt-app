@@ -1,16 +1,22 @@
 import React from 'react';
 
+import Session from './Session';
+const { user } = Session;
+
 import Searchbar from './Searchbar';
 
 const Homepage = () => {
-    let username = "Aaron";
     return (
       <div className="welcome">
-        <h1 className="hello">
-            Hello, {username}.
-            <span className="question">Watched anything good recently?</span>
-        </h1>
-        <Searchbar />
+        <div className="module-header">
+          <h1>Hello { user.name }!</h1>
+        </div>
+        <div className="module-main">
+          <h2 className="hello">
+            Watched anything good recently?
+          </h2>
+          <Searchbar />
+        </div>
       </div>
     );
 }

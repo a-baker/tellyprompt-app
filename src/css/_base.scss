@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -33,7 +37,6 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  border-bottom: 1px solid #ddd;
   font-size: 2.5em;
   font-weight: bold;
   margin: 0 0 15px;
@@ -41,7 +44,6 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1px solid #eee;
   font-size: 2em;
 }
 

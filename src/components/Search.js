@@ -12,11 +12,12 @@ export default class Search extends React.Component {
   render() {
     return (
       <div className="body">
-        <h1 className="sectionHead">
-          <i className="fa fa-search" aria-hidden="true"></i>
-          <span>Search</span>
-        </h1>
-        <Searchbar />
+        <div className="module-header">
+          <h1>Search</h1>          
+        </div>
+        <div className="module-main">
+          <Searchbar />
+        </div>
       </div>
     );
   }

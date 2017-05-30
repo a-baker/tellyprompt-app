@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class Chat extends React.Component {
+class Chat extends Component {
+    // placeholder
     render() {
-        
+        return (
+            <div>
+                <h1>Chat Page</h1>
+            </div>
+        );
     }
 }
+
+export default Chat;

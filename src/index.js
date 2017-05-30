@@ -9,6 +9,7 @@ import Info from './components/Info';
 import Signout from './components/Signout';
 import Layout from './components/Layout';
 import Homepage from './components/Homepage';
+import Chat from './components/Chat';
 
 import style from './css/style.scss';
 
@@ -21,6 +22,7 @@ render(
       <Route path="search" component={Search} />
       <Route path="info" component={Info} />
       <Route path="signout" component={Signout} />
+      <Route path="chat" component={Chat} />
     </Route>
   </Router>,
   document.getElementById('root'),

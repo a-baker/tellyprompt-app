@@ -6,6 +6,8 @@ class Chat extends Component {
         return (
             <div>
                 <h1>Chat Page</h1>
+                <div className="chat">
+                </div>
             </div>
         );
     }

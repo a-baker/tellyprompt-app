@@ -11,7 +11,7 @@ export default class Layout extends React.Component {
         <Header />
         <section id="content">
           <CSSTransitionGroup
-            transitionName="fade"
+            transitionName="slide"
             transitionAppear={true}
             transitionAppearTimeout={500}
             transitionEnterTimeout={500}

@@ -5,8 +5,11 @@ class Chat extends Component {
     render() {
         return (
             <div>
-                <h1>Chat Page</h1>
-                <div className="chat">
+                <div className='titleContainer'>
+                    <div className='row ep-row'>
+                        <div className='still-col'>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Searchbar from './Searchbar';
 
-export default class Search extends React.Component {
+export default class Search extends Component {
   constructor(props) {
     super(props);
 

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Episode from './Episode';
 import { getEpisodes } from './API';
 
-export default class Favourites extends React.Component {
+export default class Favourites extends Component {
   constructor(props) {
     super(props);
     this.state = {

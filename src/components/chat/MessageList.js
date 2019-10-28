@@ -25,7 +25,7 @@ const MessageList = ({ messages }) => {
                 dateTime={formatISOString(message.dateTime)}
             >
                 {message.content}
-            </Message
+            </Message>
         );
     });
 

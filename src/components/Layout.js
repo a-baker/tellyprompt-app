@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { IndexLink, Link } from 'react-router';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 import Header from './Header';
 
-export default class Layout extends React.Component {
+export default class Layout extends Component {
   render() {
     return (
       <div id="layout">
